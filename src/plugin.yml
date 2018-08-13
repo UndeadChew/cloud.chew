@@ -1,0 +1,22 @@
+name: Cloud
+main: cloud.chew.Main
+version: 0.0.0
+author: Chew
+
+load: STARTUP
+
+worlds:
+    dream:
+         generator: Cloud:test
+commands:
+   test:
+      description: This is a test command.
+      usage: /test
+      permission: cloud.10
+      permission-message: You do not have permission.
+   jumpto:
+      description: jumpto a player dood.
+permissions:
+    cloud.10:
+        description: test
+        default: op

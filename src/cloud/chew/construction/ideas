@@ -1,0 +1,51 @@
+math functions
+Is inside- check if one location is inside of two locations
+check for intersection between two zones.
+check if cuboid is inside another cuboid completely
+allow subzones to override zones.
+organize something like clans but make people have to join together, 
+in return will give larger zone for more people banded together.
+
+UPDATE zone file every time a zone change has been made.
+-update method
+custom mobs as always.
+
+figure out best way to organize commands.
+
+creative-dream world, space, normal survival, creative design world.
+
+copy/paste and undo for construction
+create schematics, read, and write zone of blocks.
+save schematics as files.
+World generation and schematic populators.
+
+Some form of ranking of players or Permissions. maybe a Permission file, then apply file per usergroup
+
+Construction- set, walls, floor, fill [distance] [depth], replace [0,1], [air,stone], no-replace
+future- Graph 2d, and 3d objects. 
+
+drop money items when player dies.
+
+scoreboard to view important information.
+-like enabling the coordinates of what block you're currently selecting.
+-your coordinates.
+-what class you're using.
+-personal stats.
+-bank account, and or money on person.
+
+
+introduction to teach players how to use commands perhaps, make a series of rooms that are zoned, with subzones, and command blocks.
+-teach them how to use the tools, some basic help command lists, and organizations.
+
+Classes perhaps? give buffs and debuffs for certain items, to prioritize teamwork.
+more classes unlocked by more people in organization.
+purchase classes from organization, classes must be purchased by organization, and can be customized by organization.
+to form an eternal need to spend money for warfare.
+
+
+special premade sub-zones filled with a schematic, like a bank to store money, bar, resturant -upgradable? 
+
+armory, portal to spawn
+
+zones that can have different gravity, or player modifiers.
+
