@@ -6,6 +6,7 @@ import java.util.Random;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -42,10 +43,10 @@ public class TestGenerator extends ChunkGenerator {
 		}
 	}
 
-	public byte[][] generateBlockSections(World world, Random rand, int ChunkX,
+	public ChunkData generateChunkData(World world, Random rand, int ChunkX,
 			int ChunkZ, BiomeGrid biome) {
 
-		byte[][] chunk = new byte[world.getMaxHeight() / 16][];
+		ChunkData chunk =  createChunkData(world);
 
 		if (world != null) {
 			world.setAnimalSpawnLimit(0);
@@ -87,7 +88,7 @@ public class TestGenerator extends ChunkGenerator {
 
 					for (int y=30;y<sea_level;y++) {
 
-						setBlock(x,y,z,chunk,Material.WATER); //set the current block to stone
+						chunk.setBlock(x, y, z, Material.WATER); //set the current block to stone
 
 					}
 					for (int y=0;y<maxHeight;y++) {
@@ -96,7 +97,7 @@ public class TestGenerator extends ChunkGenerator {
 						//if (d3nsity > 0) {
 						//Bukkit.getServer().broadcastMessage("denisty: " + d3nsity);
 						//if (density <= 60) {
-						setBlock(x,y,z,chunk,Material.STONE); //set the current block to stone
+						chunk.setBlock(x, y, z, Material.STONE); //set the current block to stone
 						//}	
 						//}
 					}
